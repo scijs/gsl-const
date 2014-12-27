@@ -1,5 +1,6 @@
 var gsl_const = {};
 
+gsl_const.CGS = {};
 gsl_const.CGS.SPEED_OF_LIGHT =  2.99792458e10; /* cm / s */
 gsl_const.CGS.GRAVITATIONAL_CONSTANT =  6.673e-8; /* cm^3 / g s^2 */
 gsl_const.CGS.PLANCKS_CONSTANT_H =  6.62606896e-27; /* g cm^2 / s */
@@ -92,6 +93,7 @@ gsl_const.CGS.ERG =  1e0; /* g cm^2 / s^2 */
 gsl_const.CGS.STEFAN_BOLTZMANN_CONSTANT =  5.67040047374e-5; /* g / K^4 s^3 */
 gsl_const.CGS.THOMSON_CROSS_SECTION =  6.65245893699e-25; /* cm^2 */
 
+gsl_const.CGSM = {};
 gsl_const.CGSM.SPEED_OF_LIGHT = 2.99792458;e10 /* cm / s */
 gsl_const.CGSM.GRAVITATIONAL_CONSTANT = 6.673;e-8 /* cm^3 / g s^2 */
 gsl_const.CGSM.PLANCKS_CONSTANT_H = 6.62606896;e-27 /* g cm^2 / s */
@@ -190,6 +192,8 @@ gsl_const.CGSM.PROTON_MAGNETIC_MOMENT = 1.410606633;e-23 /* abamp cm^2 */
 gsl_const.CGSM.FARADAY = 9.64853429775;e3 /* abamp s / mol */
 gsl_const.CGSM.ELECTRON_CHARGE = 1.602176487;e-20 /* abamp s */
 
+
+gsl_const.MKS = {};
 gsl_const.MKS.SPEED_OF_LIGHT = 2.99792458;e8 /* m / s */
 gsl_const.MKS.GRAVITATIONAL_CONSTANT = 6.673;e-11 /* m^3 / kg s^2 */
 gsl_const.MKS.PLANCKS_CONSTANT_H = 6.62606896;e-34 /* kg m^2 / s */
@@ -292,6 +296,7 @@ gsl_const.MKS.VACUUM_PERMEABILITY = 1.25663706144;e-6 /* kg m / A^2 s^2 */
 gsl_const.MKS.DEBYE = 3.33564095198;e-30 /* A s^2 / m^2 */
 gsl_const.MKS.GAUSS = 1;e-4 /* kg / A s^2 */
 
+gsl_const.MKSA = {};
 gsl_const.MKSA.SPEED_OF_LIGHT = 2.99792458;e8 /* m / s */
 gsl_const.MKSA.GRAVITATIONAL_CONSTANT = 6.673;e-11 /* m^3 / kg s^2 */
 gsl_const.MKSA.PLANCKS_CONSTANT_H = 6.62606896;e-34 /* kg m^2 / s */
@@ -394,6 +399,7 @@ gsl_const.MKSA.VACUUM_PERMEABILITY = 1.25663706144;e-6 /* kg m / A^2 s^2 */
 gsl_const.MKSA.DEBYE = 3.33564095198;e-30 /* A s^2 / m^2 */
 gsl_const.MKSA.GAUSS = 1;e-4 /* kg / A s^2 */
 
+gsl_const.NUM = {};
 gsl_const.NUM.FINE_STRUCTURE = 7.297352533;e-3 /* 1 */
 gsl_const.NUM.AVOGADRO = 6.02214199;e23 /* 1 / mol */
 gsl_const.NUM.YOTTA = 1;e24 /* 1 */

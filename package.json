@@ -1,6 +1,6 @@
 {
   "name": "gsl-const",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": " physical constants for JS via GNU Scientific Library",
   "main": "main.js",
   "scripts": {

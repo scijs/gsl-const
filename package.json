@@ -1,0 +1,23 @@
+{
+  "name": "gsl-const",
+  "version": "1.0.0",
+  "description": " physical constants for JS via GNU Scientific Library",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GSL-for-JS/gsl-const-js.git"
+  },
+  "keywords": [
+    "physical-constants",
+    "gsl"
+  ],
+  "author": "Philipp Burckhardt",
+  "license": "GPL-3",
+  "bugs": {
+    "url": "https://github.com/GSL-for-JS/gsl-const-js/issues"
+  },
+  "homepage": "https://github.com/GSL-for-JS/gsl-const-js"
+}
